@@ -17,7 +17,12 @@
             "tsConfig": "apps/plg/tsconfig.app.json",
             "aot": true,
             "assets": ["apps/plg/src/favicon.ico", "apps/plg/src/assets"],
-            "styles": ["apps/plg/src/styles.scss"],
+            "styles": [
+              "apps/plg/src/styles.scss",
+              "node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.scss",
+							"node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-alpine/sass/ag-theme-alpine.scss"
+
+            ],
             "scripts": []
           },
           "configurations": {
